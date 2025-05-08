@@ -35,11 +35,16 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I study how the brain constructs and adapts space around the body. My research focuses on two interconnected lines of inquiry:
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        **1. Plasticity of Peripersonal Space (PPS):**  
+        I investigate how peripersonal space—the space immediately surrounding the body—can flexibly adapt to different contexts, tasks, and sensory feedback. A central theme in my work is comparing the plasticity of hand-centered and foot-centered PPS, revealing functional and neural distinctions between body parts in multisensory integration and action preparation.
+
+        **2. Neural and Cognitive Architecture of Spatial Representations:**  
+        I explore how the brain represents different spatial domains—peripersonal space, reaching space, and interpersonal space—and how these spaces differ in their underlying cognitive and neural mechanisms. My work aims to clarify the functional boundaries and overlaps between these spatial systems, with implications for understanding social behavior, motor control, and sensory processing.
+
+        I use immersive VR, behavioral experiments, and computational modeling to uncover the dynamic nature of space perception.  
+        Feel free to reach out if you’re interested in collaborating! 😃
     design:
       columns: '1'
   - block: collection
