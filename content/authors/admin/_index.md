@@ -38,7 +38,7 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=DIYaStkAAAAJ&hl=en
   - icon: academicons/orcid
-    url: https://orcid.org/my-orcid?orcid=0009-0008-8104-8802
+    url: https://orcid.org/0009-0008-8104-8802
 
 interests:
   - Multisensory Integration
