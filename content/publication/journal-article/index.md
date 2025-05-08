@@ -1,75 +1,53 @@
 ---
-title: "An example journal article"
+title: "Peripersonal space around the upper and the lower limbs"
 authors:
-- admin
-- Robert Ford
+- Elena Gherri
+- Aolong Xu
+- Elisabetta Ambron
+- Anna Sedda
 author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-doi: ""
+- ""
+- ""
+date: "2022-08-01T00:00:00Z"
 
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+# Schedule page publish date (可自定义页面上线时间)
+publishDate: "2022-08-01T00:00:00Z"
 
 # Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
-publication_short: ""
+publication: "*Experimental Brain Research, 240*(7), 2039–2050"
+publication_short: "*Exp Brain Res*"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: |
+  Peripersonal space (PPS), the space closely surrounding the body, is typically characterised by enhanced multisensory integration. Neurophysiological and behavioural studies have consistently shown stronger visuo-tactile integration when a visual stimulus is presented close to the tactually stimulated body part in near space (within PPS) than in far space. However, in the majority of these studies, tactile stimuli were delivered to the upper limbs, torso, and face. Therefore, it is not known whether the space surrounding the lower limbs is characterised by similar multisensory properties. To address this question, we asked participants to complete two versions of the classic visuo-tactile crossmodal congruency task in which they had to perform speeded elevation judgements of tactile stimuli presented to the dorsum of the hand and foot while a simultaneous visual distractor was presented at spatially congruent or incongruent locations either in near or far space. In line with existing evidence, when the tactile target was presented to the hand, the size of the crossmodal congruency effect (CCE) decreased in far as compared to near space, suggesting stronger visuo-tactile multisensory integration within PPS. In contrast, when the tactile target was presented to the foot, the CCE decreased for visual distractors in near than far space. These findings show systematic differences between the representation of PPS around upper and lower limbs, suggesting that the multisensory properties of the different body part-centred representations of PPS are likely to depend on the potential actions performed by the different body parts.
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: |
+  This study shows that peripersonal space (PPS) around the upper and lower limbs differs in multisensory integration characteristics, possibly reflecting the functional roles of the limbs.
 
 tags:
-- Source Themes
+- Peripersonal space
+- Multisensory integration
+- Visuo-tactile interaction
+- Body representation
+
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+url_pdf: "https://link.springer.com/10.1007/s00221-022-06387-7"
+url_code: ""
+url_dataset: ""
+url_poster: ""
+url_project: ""
+url_slides: ""
+url_source: ""
+url_video: ""
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ""
   focal_point: ""
   preview_only: false
 
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
 projects: []
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
