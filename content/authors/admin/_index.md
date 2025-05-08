@@ -59,7 +59,7 @@ education:
     date_end: 2019-11-29
     supervisor: Dr. Elena Gherri
   - degree: BSc in Psychology & BA in English (International Finance)
-    institution: Jiangxi Normal University
+    institution: JiangXi Normal University
     date_start: 2012-09-01
     date_end: 2016-07-10
 work:
