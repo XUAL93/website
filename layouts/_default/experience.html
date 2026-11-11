@@ -1,6 +1,12 @@
 {{ define "main" }}
 {{ $author := site.GetPage "authors/admin" }}
 <div class="page-title wrap"><p class="affiliation">{{ $author.Title }}</p><h1>Experience</h1><p>Education, research, and professional background.</p></div>
-<section class="page-section wrap section-grid"><h2>Education</h2><div class="experience-full">{{ partial "education.html" $author }}</div></section>
-<section class="page-section section-tint"><div class="wrap section-grid"><h2>Professional experience</h2><div class="experience-full">{{ partial "work.html" $author }}{{ partial "teaching.html" $author }}</div></div></section>
-<section class="page-section wrap section-grid"><h2>Skills &amp; interests</h2><div class="skill-groups">{{ range $author.Params.skills }}<div><h3>{{ .name }}</h3>{{ if .summary }}<p>{{ .summary }}</p>{{ if eq .name "Outside research" }}{{ partial "cats-note.html" $author }}{{ end }}{{ else }}<p>{{ range $index, $item := .items }}{{ if $index }}, {{ end }}{{ $item.name }}{{ end }}</p>{{ end }}</div>{{ end }}<div><h3>Languages</h3><p>{{ range $index, $item := $author.Params.languages }}{{ if $index }}, {{ end }}{{ $item.name }}{{ end }}</p></div><div><h3>Awards &amp; funding</h3>{{ range $author.Params.awards }}<h4>{{ .title }}</h4><p>{{ .awarder }}</p>{{ with .summary }}<p>{{ . }}</p>{{ end }}{{ end }}</div></div></section>{{ end }}
+<section class="page-section wrap section-grid" aria-labelledby="edu-title"><h2 id="edu-title">Education</h2><div class="cv-list">{{ partial "education.html" $author }}</div></section>
+<section class="page-section section-tint" aria-labelledby="work-title"><div class="wrap section-grid"><h2 id="work-title">Professional experience</h2><div class="cv-list">{{ partial "work.html" $author }}</div></div></section>
+{{ if $author.Params.conferences }}<section class="page-section wrap section-grid" aria-labelledby="conf-title"><h2 id="conf-title">Conference presentations</h2><div class="cv-list">{{ partial "conferences.html" $author }}</div></section>{{ end }}
+<section class="page-section section-tint" aria-labelledby="more-title"><div class="wrap section-grid"><h2 id="more-title">Skills and more</h2><dl class="cv-facts">
+<div class="cv-fact"><dt>Technical skills</dt><dd>{{ range $i, $x := (index $author.Params.skills 0).items }}{{ if $i }}, {{ end }}{{ $x.name }}{{ end }}</dd></div>
+<div class="cv-fact"><dt>Languages</dt><dd>{{ range $i, $x := $author.Params.languages }}{{ if $i }}, {{ end }}{{ $x.name }}{{ end }}</dd></div>
+{{ range $author.Params.awards }}<div class="cv-fact"><dt>Funding</dt><dd>{{ .title }}, {{ .awarder }}.{{ with .summary }} {{ . }}{{ end }}</dd></div>{{ end }}
+<div class="cv-fact"><dt>Interests</dt><dd>{{ range $i, $x := (index $author.Params.skills 1).items }}{{ if $i }}, {{ end }}{{ $x.name }}{{ end }}</dd></div>
+</dl></div></section>{{ end }}

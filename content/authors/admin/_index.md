@@ -107,11 +107,19 @@ work:
     company_name: Shanghai Lianjia (KE Holdings / Beike), China
     period: Aug 2020–Sep 2021
 
-teaching:
-  - position: Part-time Lecturer
-    institution: Shanghai Normal University Tianhua College, China
-    period: Feb–Jun 2021
-    course: 'Research Methods in Psychology'
+conferences:
+  - name: Joint ESCoP-CoPM Meeting 2026
+    location: Hangzhou, China
+    period: Aug–Sep 2026
+    type: Poster presentation
+  - name: International Conference on Cognitive Neuroscience (ICON 2025)
+    location: Porto, Portugal
+    period: Sep 2025
+    type: Poster presentation
+  - name: International Multisensory Research Forum (IMRF 2024)
+    location: Reno, Nevada, USA
+    period: Jun 2024
+    type: Poster presentation
 
 manuscripts:
   - title: 'Effector-specific organisation of peripersonal space for the foot and hand: A virtual reality experiment.'
