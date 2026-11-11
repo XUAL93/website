@@ -21,6 +21,7 @@ highlight_name: true
 
 # Role/position/tagline
 role: PhD Fellow
+location: Ghent, Belgium
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -30,45 +31,50 @@ organizations:
 # Social network links
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
+    url: 'mailto:aolong.xu@ugent.be'
+    label: Email
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=DIYaStkAAAAJ&hl=en
     label: Google Scholar
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/aolong-xu-646024356/
+    label: LinkedIn
+  - icon: book-open
+    url: https://xhslink.cn/o/i7PD1T4HcW
+    label: Xiaohongshu
   - icon: academicons/orcid
     url: https://orcid.org/0009-0008-8104-8802
     label: ORCID
   - icon: academicons/researchgate
     url: https://www.researchgate.net/profile/Aolong-Xu
     label: ResearchGate
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/aolong-xu-646024356/
-    label: LinkedIn
   - icon: brands/github
     url: https://github.com/XUAL93
     label: GitHub
-  - icon: book-open
-    url: https://xhslink.cn/o/i7PD1T4HcW
-    label: Xiaohongshu
 
 interests:
   - Multisensory Integration
   - Spatial Perception
-  - Plasticity of Peripersonal Space
+  - VR
 
 education:
   - degree: PhD in Experimental Psychology
     institution: Ghent University
     date_start: 2023-10-06
     date_end: ''
+    expected_completion: '2027-09'
     supervisor: Prof. Durk Talsma
     summary: |
-      Research focuses on multisensory integration and peripersonal space, comparing hand and foot representations with behavioral, VR, and neurophysiological methods.
+      Research examines the flexibility and plasticity of peripersonal space around the hands and feet using virtual reality.
+
+      Expected completion: September 2027.
   - degree: MSc in Psychological Research
     institution: University of Edinburgh
     date_start: 2018-09-10
     date_end: 2019-11-29
     supervisor: Dr. Elena Gherri
+    summary: |
+      Dissertation: Peripersonal space around the upper and the lower limbs.
   - degree: BSc in Psychology & BA in English (International Finance)
     institution: JiangXi Normal University
     date_start: 2012-09-01
@@ -130,12 +136,13 @@ awards:
     date: '2023-05-30'
     awarder: China Scholarship Council (CSC)
     icon: award
+    summary: 'Funding period: September 2023–2027.'
 ---
 
 ## About Me
 
-Aolong Xu (徐傲龙) is a PhD Fellow at Ghent University. His research examines multisensory integration and spatial perception, with a focus on how peripersonal space (PPS) differs between the hand and the foot. He uses immersive VR, behavioral experiments, and neurophysiological methods.
+Aolong Xu (徐傲龙) is a PhD Fellow at Ghent University. His research examines multisensory integration and spatial perception, with a focus on the flexibility and plasticity of peripersonal space (PPS). He uses immersive VR, behavioral experiments, and neurophysiological methods.
 
-His research career began at the University of Edinburgh, where he worked with Dr. Elena Gherri on visuo-tactile perception and PPS. He later received a scholarship from the China Scholarship Council to join Prof. Durk Talsma's team at Ghent University. Before his PhD, he worked as a senior data analyst at Trip.com.
+His research career began at the University of Edinburgh, where he worked with Prof. Elena Gherri. He later received a scholarship to join Prof. Talsma's team at Ghent University. Before his PhD, he worked as a senior data analyst at Trip.com.
 
-His posts on Xiaohongshu have received over 10.6K likes and saves.
+You can also find him on [Google Scholar](https://scholar.google.com/citations?user=DIYaStkAAAAJ&hl=en), [LinkedIn](https://www.linkedin.com/in/aolong-xu-646024356/), and [Xiaohongshu](https://xhslink.cn/o/i7PD1T4HcW).
