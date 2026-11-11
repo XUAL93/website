@@ -168,13 +168,6 @@ languages:
   - name: Chinese
   - name: Gan Chinese
 
-awards:
-  - title: PhD Scholarship
-    date: '2023-05-30'
-    awarder: China Scholarship Council (CSC)
-    icon: award
-    summary: 'Funding period: September 2023–2027.'
-
 cats:
   - name: 7千
     coat: solid chestnut

@@ -7,6 +7,5 @@
 <section class="page-section section-tint" aria-labelledby="more-title"><div class="wrap section-grid"><h2 id="more-title">Skills and more</h2><dl class="cv-facts">
 <div class="cv-fact"><dt>Technical skills</dt><dd>{{ range $i, $x := (index $author.Params.skills 0).items }}{{ if $i }}, {{ end }}{{ $x.name }}{{ end }}</dd></div>
 <div class="cv-fact"><dt>Languages</dt><dd>{{ range $i, $x := $author.Params.languages }}{{ if $i }}, {{ end }}{{ $x.name }}{{ end }}</dd></div>
-{{ range $author.Params.awards }}<div class="cv-fact"><dt>Funding</dt><dd>{{ .title }}, {{ .awarder }}.{{ with .summary }} {{ . }}{{ end }}</dd></div>{{ end }}
 <div class="cv-fact"><dt>Interests</dt><dd>{{ range $i, $x := (index $author.Params.skills 1).items }}{{ if $i }}, {{ end }}{{ $x.name }}{{ end }}</dd></div>
 </dl></div></section>{{ end }}
