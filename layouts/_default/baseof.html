@@ -9,5 +9,5 @@
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header wrap"><a class="wordmark" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a><nav aria-label="Main navigation">{{ range site.Menus.main }}<a href="{{ .URL | relURL }}">{{ .Name }}</a>{{ end }}</nav></header>
 <main id="main">{{ block "main" . }}{{ end }}</main>
-<footer class="site-footer wrap"><span>© {{ now.Year }} {{ site.Title }}</span><a href="{{ "uploads/resume.pdf" | relURL }}">Academic CV (PDF)</a><a href="mailto:{{ $author.Params.email }}">{{ $author.Params.email }}</a></footer>
+<footer class="site-footer wrap"><span>© {{ now.Year }} {{ site.Title }}</span><a href="mailto:{{ $author.Params.email }}">{{ $author.Params.email }}</a></footer>
 </body></html>
