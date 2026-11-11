@@ -3,7 +3,7 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 {{ partial "seo.html" . }}
-<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}"><link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
+<link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}">{{ with $author.Resources.GetMatch "avatar*" }}{{ $i48 := .Fill "96x96 center png" }}{{ $i180 := .Fill "180x180 center png" }}<link rel="icon" type="image/png" sizes="96x96" href="{{ $i48.RelPermalink }}"><link rel="apple-touch-icon" href="{{ $i180.RelPermalink }}">{{ end }}<link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
 {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ site.Title }}">{{ end }}
 </head><body>
 <a class="skip-link" href="#main">Skip to content</a>

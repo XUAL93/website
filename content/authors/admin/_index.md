@@ -91,8 +91,8 @@ work:
       - Investigating the plasticity of peripersonal space (PPS) using behavioral, neurophysiological, and VR-based methods.
       - Comparing the cognitive and neural mechanisms of PPS, reaching space, and interpersonal space.
 
-  - position: Data Analyst (Senior)
-    company_name: Trip.com (China)
+  - position: Senior Data Analyst (Data Products)
+    company_name: Trip.com Group, China
     date_start: 2021-12-20
     date_end: 2023-10-05
     summary: |
@@ -100,17 +100,17 @@ work:
       - Conducted data analysis to generate actionable insights for product and business teams.
 
   - position: Sales Strategy
-    company_name: Meituan
-    period: September–December 2021
+    company_name: Meituan, China
+    period: Sep–Dec 2021
 
   - position: Operations Business Partner (Data Analysis)
     company_name: Shanghai Lianjia (KE Holdings / Beike), China
-    period: August 2020–September 2021
+    period: Aug 2020–Sep 2021
 
 teaching:
   - position: Part-time Lecturer
     institution: Shanghai Normal University Tianhua College, China
-    period: February–June 2021
+    period: Feb–Jun 2021
     course: 'Research Methods in Psychology'
 
 manuscripts:
