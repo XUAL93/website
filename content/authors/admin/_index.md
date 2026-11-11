@@ -73,7 +73,7 @@ education:
     institution: University of Edinburgh
     date_start: 2018-09-10
     date_end: 2019-11-29
-    supervisor: Dr. Elena Gherri
+    supervisor: Prof. Elena Gherri
     summary: |
       Dissertation: Peripersonal space around the upper and the lower limbs.
   - degree: BSc in Psychology & BA in English (International Finance)
