@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 徐傲龙
+title: Aolong Xu
 
 # Name pronunciation (optional)
-name_pronunciation: Aolong Xu
+name_pronunciation: 徐傲龙
 
 # Full name (for SEO)
 first_name: Aolong
@@ -28,17 +28,28 @@ organizations:
     url: https://research.ugent.be/web/person/aolong-xu-0/en
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
     url: 'mailto:your-email@example.com'
     label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/XUAL93
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=DIYaStkAAAAJ&hl=en
+    label: Google Scholar
   - icon: academicons/orcid
     url: https://orcid.org/0009-0008-8104-8802
+    label: ORCID
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Aolong-Xu
+    label: ResearchGate
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/aolong-xu-646024356/
+    label: LinkedIn
+  - icon: brands/github
+    url: https://github.com/XUAL93
+    label: GitHub
+  - icon: book-open
+    url: https://xhslink.cn/o/i7PD1T4HcW
+    label: Xiaohongshu
 
 interests:
   - Multisensory Integration
@@ -50,9 +61,9 @@ education:
     institution: Ghent University
     date_start: 2023-10-06
     date_end: ''
-    supervisor: Dr. Durk Talsma
+    supervisor: Prof. Durk Talsma
     summary: |
-      Research focuses on multisensory integration and spatial perception, using behavioral, VR, and neurophysiological methods. 
+      Research focuses on multisensory integration and peripersonal space, comparing hand and foot representations with behavioral, VR, and neurophysiological methods.
   - degree: MSc in Psychological Research
     institution: University of Edinburgh
     date_start: 2018-09-10
@@ -62,6 +73,7 @@ education:
     institution: JiangXi Normal University
     date_start: 2012-09-01
     date_end: 2016-07-10
+
 work:
   - position: PhD Fellow
     company_name: Ghent University
@@ -79,8 +91,6 @@ work:
     summary: |
       - Designed and maintained data dashboards to monitor consumers' behavior and products' performance.
       - Conducted data analysis to generate actionable insights for product and business teams.
-
-
 
 skills:
   - name: Technical Skills
@@ -110,17 +120,11 @@ skills:
       - name: Cats
         icon: cat
 
-
-        
 languages:
   - name: English
   - name: Chinese
   - name: Gan Chinese
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
   - title: PhD Scholarship
     date: '2023-05-30'
@@ -130,4 +134,8 @@ awards:
 
 ## About Me
 
-I am a PhD Fellow at Ghent University, focusing on multisensory integration and human interaction in virtual environments. My academic career began at the University of Edinburgh, where I collaborated with Dr. Gherri on research exploring visuo-tactile perception and peripersonal space. Later, I was awarded a scholarship to join Prof. Talsma's team at Ghent University, where I continued investigating VR and spatial perception.
+Aolong Xu (徐傲龙) is a PhD Fellow at Ghent University. His research examines multisensory integration and spatial perception, with a focus on how peripersonal space (PPS) differs between the hand and the foot. He uses immersive VR, behavioral experiments, and neurophysiological methods.
+
+His research career began at the University of Edinburgh, where he worked with Dr. Elena Gherri on visuo-tactile perception and PPS. He later received a scholarship from the China Scholarship Council to join Prof. Durk Talsma's team at Ghent University. Before his PhD, he worked as a senior data analyst at Trip.com.
+
+His posts on Xiaohongshu have received over 10.6K likes and saves.
