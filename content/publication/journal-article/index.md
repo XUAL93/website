@@ -14,6 +14,6 @@ featured: false
 weight: 20
 publication_status: Published
 links:
-  - name: DOI
+  - name: Full text (open access)
     url: https://doi.org/10.1007/s00221-022-06387-7
 ---
