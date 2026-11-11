@@ -1,0 +1,25 @@
+photos:
+  - file: photography/waterfront.jpg
+    title: Waterfront reflections
+    alt: Colourful waterfront buildings reflected in still water at dusk
+    source: d8750b61376ce4be119ed8cd18894ea4.jpg
+  - file: photography/snowy-peaks.jpg
+    title: Snow-covered peaks
+    alt: Jagged snowy peaks reflected in calm blue water
+    source: 69b9e956fe34cf74680cba8b27f1a0c2.jpg
+  - file: photography/night-sky.jpg
+    title: Night sky
+    alt: A bright band of the Milky Way across a dark night sky
+    source: e76c262322d9791aa77799bcfae532e4.jpg
+  - file: photography/coastal-colours.jpg
+    title: Coastal colours
+    alt: Green and rust-coloured coastal cliffs beside a dark beach and blue sea
+    source: 9ac68f0ff7448dc2a67d6f1f54e14396.jpg
+  - file: photography/clock-window.jpg
+    title: Through the clock
+    alt: Silhouettes of visitors inside a hall with a large backlit clock window
+    source: 8c7cf7d1e33b41ceac275d36a08dc981.jpg
+  - file: photography/alpine-valley.jpg
+    title: Alpine light
+    alt: Sunlight across a green alpine valley beneath dramatic clouds
+    source: 895e4eefc0d7382362cb39eeec6f92f4.jpg

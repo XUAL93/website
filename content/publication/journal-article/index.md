@@ -11,6 +11,8 @@ publication_types: ["article-journal"]
 publication: "*Experimental Brain Research*, 240(7–8), 2039–2050"
 abstract: ""
 featured: false
+weight: 20
+publication_status: Published
 links:
   - name: DOI
     url: https://doi.org/10.1007/s00221-022-06387-7

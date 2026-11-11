@@ -22,6 +22,7 @@ highlight_name: true
 # Role/position/tagline
 role: PhD Fellow
 location: Ghent, Belgium
+email: aolong.xu@ugent.be
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -76,7 +77,7 @@ education:
     summary: |
       Dissertation: Peripersonal space around the upper and the lower limbs.
   - degree: BSc in Psychology & BA in English (International Finance)
-    institution: JiangXi Normal University
+    institution: Jiangxi Normal University
     date_start: 2012-09-01
     date_end: 2016-07-10
 
@@ -98,6 +99,30 @@ work:
       - Designed and maintained data dashboards to monitor consumers' behavior and products' performance.
       - Conducted data analysis to generate actionable insights for product and business teams.
 
+  - position: Sales Strategy
+    company_name: Meituan
+    period: September–December 2021
+
+  - position: Operations Business Partner (Data Analysis)
+    company_name: Shanghai Lianjia (KE Holdings / Beike), China
+    period: August 2020–September 2021
+
+teaching:
+  - position: Part-time Lecturer
+    institution: Shanghai Normal University Tianhua College, China
+    period: February–June 2021
+    course: 'Research Methods in Psychology'
+
+manuscripts:
+  - title: 'Effector-specific organisation of peripersonal space for the foot and hand: A virtual reality experiment.'
+    status: In revision
+  - title: 'Peripersonal space, interpersonal space, and reachability: Are they different, or is it just a matter of scale?'
+    status: In preparation
+  - title: 'Tool-use-related plasticity of peripersonal space around the hand in immersive virtual reality.'
+    status: In preparation
+  - title: 'Foot motor preparation: An ERP-based investigation.'
+    status: In preparation
+
 skills:
   - name: Technical Skills
     items:
@@ -109,16 +134,20 @@ skills:
         icon: database
       - name: Unity (C#)
         icon: chart-bar
+      - name: MATLAB
+        icon: chart-bar
 
-  - name: Creative & Hobbies
+  - name: Outside research
     color: '#eeac02'
     color_border: '#f0bf23'
-    summary: A few things I love outside of research and coding.
+    summary: Outside research, Aolong enjoys building LEGO, fishing, playing the violin, photography, and video games.
     items:
       - name: Photography
         icon: camera
       - name: Fishing
         icon: person-simple-walk
+      - name: Violin
+        icon: musical-note
       - name: LEGO
         icon: person-simple-walk
       - name: Video Games
@@ -137,6 +166,14 @@ awards:
     awarder: China Scholarship Council (CSC)
     icon: award
     summary: 'Funding period: September 2023–2027.'
+
+cats:
+  - name: 7千
+    coat: solid chestnut
+    age: 10
+  - name: 瓜瓜
+    coat: red tabby
+    age: 4
 ---
 
 ## About Me

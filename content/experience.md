@@ -1,7 +1,9 @@
 ---
 title: 'Experience'
+description: 'Aolong Xu’s education, research, teaching and professional experience, including Ghent University, the University of Edinburgh, Trip.com and Meituan.'
 date: 2023-10-24
 type: landing
+layout: experience
 
 design:
   spacing: '5rem'

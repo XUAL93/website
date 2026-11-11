@@ -1,0 +1,3 @@
+{{ define "main" }}<article class="article-page wrap"><a class="back-link" href="{{ site.Home.RelPermalink }}">Back to home</a><h1>{{ .Title }}</h1>
+{{ if eq .Section "publication" }}<p class="article-authors">{{ range $index, $name := .Params.authors }}{{ if $index }}, {{ end }}{{ if eq $name "admin" }}Aolong Xu{{ else }}{{ $name }}{{ end }}{{ end }}</p><p>{{ .Params.publication | markdownify }}</p><p class="publication-meta">{{ .Params.publication_status | default "Published" }}{{ if not .Date.IsZero }} / {{ .Date.Year }}{{ end }}</p>{{ range .Params.links }}<p><a href="{{ .url }}">{{ .name }}</a></p>{{ end }}{{ end }}
+<div class="prose article-body">{{ .Content }}</div></article>{{ end }}

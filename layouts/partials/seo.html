@@ -1,0 +1,39 @@
+{{ $author := site.GetPage "authors/admin" }}
+{{ $title := printf "%s | %s" .Title site.Title }}
+{{ if .IsHome }}{{ $title = site.Params.marketing.seo.title | default site.Title }}{{ end }}
+{{ $description := .Description }}
+{{ if not $description }}{{ if or .IsHome (eq .Section "authors") }}{{ $description = site.Params.marketing.seo.description }}{{ else }}{{ $description = printf "%s. %s" .Title site.Params.marketing.seo.description | truncate 165 }}{{ end }}{{ end }}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $description }}">
+<meta name="author" content="{{ $author.Title }}">
+{{ if .IsHome }}<meta name="keywords" content="Aolong Xu, Xu Aolong, 徐傲龙, Ghent University, peripersonal space, multisensory integration, virtual reality, EEG, psychology">{{ end }}
+{{ if eq .Kind "404" }}<meta name="robots" content="noindex,follow">{{ else }}<meta name="robots" content="index,follow,max-image-preview:large">{{ end }}
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="{{ if .IsHome }}profile{{ else }}website{{ end }}">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description }}">
+{{ $image := $author.Resources.GetMatch "avatar*" }}
+{{ if eq .Layout "photography" }}{{ $image = resources.Get (index site.Data.photography.photos 0).file }}{{ end }}
+{{ if eq .Layout "lego" }}{{ $image = resources.Get (index site.Data.lego.builds 0).file }}{{ end }}
+{{ with $image }}{{ $preview := .Resize "1200x jpg q85" }}
+<meta property="og:image" content="{{ $preview.Permalink }}">
+<meta property="og:image:width" content="{{ $preview.Width }}">
+<meta property="og:image:height" content="{{ $preview.Height }}">
+<meta name="twitter:image" content="{{ $preview.Permalink }}">
+{{ end }}
+{{ if .IsHome }}
+{{ with site.Params.marketing.verification.google }}<meta name="google-site-verification" content="{{ . }}">{{ end }}
+{{ with site.Params.marketing.verification.baidu }}<meta name="baidu-site-verification" content="{{ . }}">{{ end }}
+{{ $sameAs := slice }}{{ range $author.Params.profiles }}{{ if not (hasPrefix .url "mailto:") }}{{ $sameAs = $sameAs | append .url }}{{ end }}{{ end }}
+{{ $personID := printf "%s#person" site.Home.Permalink }}
+{{ $person := dict "@type" "Person" "@id" $personID "name" $author.Title "alternateName" (slice $author.Params.name_pronunciation (printf "Xu %s" $author.Params.first_name)) "image" ((($author.Resources.GetMatch "avatar*").Fill "400x400 center jpg").Permalink) "url" site.Home.Permalink "jobTitle" $author.Params.role "affiliation" (dict "@type" "CollegeOrUniversity" "name" (index $author.Params.organizations 0).name "url" (index $author.Params.organizations 0).url) "sameAs" $sameAs "knowsAbout" $author.Params.interests }}
+{{ $website := dict "@type" "WebSite" "@id" (printf "%s#website" site.Home.Permalink) "url" site.Home.Permalink "name" site.Title "inLanguage" "en" "publisher" (dict "@id" $personID) }}
+{{ $profile := dict "@type" "ProfilePage" "@id" (printf "%s#profile" site.Home.Permalink) "url" site.Home.Permalink "name" $title "inLanguage" "en" "mainEntity" (dict "@id" $personID) }}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" (slice $person $website $profile) | jsonify | safeJS }}</script>
+{{ end }}

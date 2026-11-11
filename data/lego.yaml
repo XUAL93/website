@@ -1,0 +1,13 @@
+builds:
+  - file: lego/treehouse.jpg
+    title: Treehouse
+    alt: A detailed brick-built treehouse with green foliage and raised cabins
+  - file: lego/dragons.jpg
+    title: Dragons
+    alt: Green and red brick-built dragons displayed together on a shelf
+  - file: lego/shelf.jpg
+    title: Shelf display
+    alt: A selection of colourful brick-built models arranged on a wooden cabinet
+  - file: lego/wall-art.jpg
+    title: Wall display
+    alt: A framed cat-themed brick artwork displayed on a wall

@@ -16,6 +16,9 @@ main:
   - name: Experience
     url: experience/
     weight: 20
-  - name: Profiles
+  - name: Contact
     url: /#profiles
     weight: 30
+  - name: Photography
+    url: photography/
+    weight: 25

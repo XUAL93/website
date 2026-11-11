@@ -1,0 +1,12 @@
+<div class="photo-grid">
+{{ range . }}{{ $entry := . }}{{ with resources.Get .file }}
+  {{ $small := .Resize "700x jpg q82" }}
+  {{ $large := .Resize "1600x jpg q85" }}
+  <figure class="photograph">
+    <a href="{{ $large.RelPermalink }}" target="_blank" rel="noopener" aria-label="Open photograph: {{ $entry.title }} (opens in a new tab)">
+      <img src="{{ $small.RelPermalink }}" srcset="{{ $small.RelPermalink }} 700w, {{ $large.RelPermalink }} 1600w" sizes="(max-width: 640px) calc(100vw - 40px), (max-width: 900px) 43vw, 340px" width="{{ $small.Width }}" height="{{ $small.Height }}" loading="lazy" decoding="async" alt="{{ $entry.alt }}">
+    </a>
+    <figcaption>{{ $entry.title }}</figcaption>
+  </figure>
+{{ end }}{{ end }}
+</div>

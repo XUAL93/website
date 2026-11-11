@@ -2,6 +2,7 @@
 # Leave the homepage title empty to use the site title
 title: ""
 date: 2022-10-24
+lastmod: 2026-11-11
 type: landing
 
 design:
@@ -35,13 +36,21 @@ sections:
     content:
       title: Research
       subtitle: ''
+      intro: How sensory information shapes perception and the space around the body.
+      themes:
+        - title: Multisensory integration
+          description: How does the brain combine information from different senses to shape perception and action? Aolong studies multisensory integration in peripersonal space, comparing hand- and foot-centered representations using immersive VR, behavioral experiments, and EEG.
+        - title: Spatial representations
+          description: How do peripersonal space, reaching space, and interpersonal space overlap and differ? His work examines the cognitive and neural mechanisms behind these spatial representations.
       text: |-
         Aolong Xu studies how the brain constructs and adapts the space around the body. His research follows two lines of inquiry.
 
-        **1. Flexibility and plasticity of peripersonal space (PPS)**  
-        This line examines how PPS adapts to different contexts and tasks. A central theme is the comparison between hand-centered and foot-centered PPS. The aim is to identify functional and neural differences between body parts in multisensory integration and action planning.
+        ### Multisensory integration
 
-        **2. Similarities and differences between spatial representations**  
+        This line examines how the brain combines information from different senses to shape perception and action. A focus is the flexibility and plasticity of peripersonal space (PPS) across different contexts and tasks, comparing hand-centered and foot-centered representations.
+
+        ### Spatial representations
+
         This line examines how the brain represents peripersonal space, reaching space, and interpersonal space. It tests how these spaces differ in their cognitive and neural mechanisms. The results inform theories of social behavior, motor control, and sensory processing.
 
         Methods include immersive VR, behavioral experiments, and EEG.

@@ -1,0 +1,1 @@
+{{ with .Params.teaching }}<div class="teaching-experience"><h3>Teaching</h3>{{ range . }}<article class="experience-entry"><p class="entry-date">{{ .period }}</p><h4>{{ .position }}</h4><p class="entry-institution">{{ .institution }}</p><p class="entry-detail">{{ .course }}</p></article>{{ end }}</div>{{ end }}

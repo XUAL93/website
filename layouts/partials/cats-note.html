@@ -1,0 +1,1 @@
+{{ with .Params.cats }}<p class="cats-note">I share my home with two Oriental Shorthair cats: <span lang="zh-Hans">{{ (index . 0).name }}</span>, a {{ (index . 0).age }}-year-old with a {{ (index . 0).coat }} coat, and <span lang="zh-Hans">{{ (index . 1).name }}</span>, a {{ (index . 1).age }}-year-old {{ (index . 1).coat }}.</p>{{ end }}
