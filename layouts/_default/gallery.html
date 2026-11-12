@@ -1,0 +1,5 @@
+{{ define "main" }}
+<header class="page-title wrap"><p class="affiliation">Outside research</p><h1>Gallery</h1><p>Photographs and LEGO builds from outside the lab.</p></header>
+<section id="photography" class="wrap photography-page" aria-labelledby="photography-title"><h2 id="photography-title">Photography</h2>{{ partial "photo-grid.html" site.Data.photography.photos }}<p class="photo-credit">Photography © {{ site.Title }}. Select a photograph to view it larger.</p></section>
+<section id="lego" class="wrap photography-page" aria-labelledby="lego-title"><h2 id="lego-title">LEGO</h2>{{ partial "lego-grid.html" site.Data.lego.builds }}</section>
+{{ end }}
