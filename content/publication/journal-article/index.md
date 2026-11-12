@@ -8,12 +8,10 @@ authors:
 date: "2022-07-01"
 publishDate: "2022-07-01T00:00:00Z"
 publication_types: ["article-journal"]
-publication: "*Experimental Brain Research*, 240(7–8), 2039–2050"
+publication: "*Experimental Brain Research*, 240(7–8), 2039–2050 (open access)"
 abstract: ""
 featured: false
 weight: 20
 publication_status: Published
-links:
-  - name: Full text (open access)
-    url: https://doi.org/10.1007/s00221-022-06387-7
+doi: https://doi.org/10.1007/s00221-022-06387-7
 ---
