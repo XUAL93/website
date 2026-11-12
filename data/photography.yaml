@@ -2,36 +2,27 @@ photos:
   - file: photography/hallstatt-winter.jpg
     title: Winter village
     alt: A church tower and snow-covered houses beside a mountain lake
-    source: DSC03313.jpg
   - file: photography/alpine-peaks.jpg
     title: Alpine peaks
     alt: Snowy rocky peaks under a blue sky with a small cloud
-    source: DSC03402.jpg
-  - file: photography/orsay-clock.jpg
-    title: Through the clock
-    alt: Silhouettes of visitors in front of a large backlit clock window
-    source: DSC03547.jpg
+  - file: photography/pink-dusk-mountain.jpg
+    title: Pink dusk
+    alt: A snowy mountain and village road under pink evening clouds
   - file: photography/mosaic-apse.jpg
     title: Looking up
     alt: Visitors looking at a mosaic apse with tall arched windows
-    source: DSC03653.jpg
   - file: photography/eiffel-dusk.jpg
     title: Dusk over the city
     alt: The Eiffel Tower lit at dusk above the city skyline
-    source: DSC09041.jpg
-  - file: photography/neon-cafe.jpg
-    title: Neon corner
-    alt: A street cafe with neon signs and lights at night
-    source: DSC09072.jpg
-  - file: photography/harbour-reflections.jpg
-    title: Waterfront reflections
-    alt: Colourful waterfront houses reflected in still water
-    source: DSC09542.jpg
+  - file: photography/red-houses.jpg
+    title: Red houses
+    alt: Red houses on a snowy shore beside a fjord
   - file: photography/moon-window.jpg
     title: Window moon
     alt: Silhouetted people at a window with the moon above a snowy landscape
-    source: DSC09892.jpg
   - file: photography/red-hut.jpg
     title: Red hut
     alt: A small red hut on a snowy shore beneath misty mountains
-    source: DSC09956.jpg
+  - file: photography/city-sunset.jpg
+    title: City at sunset
+    alt: Towers and apartment blocks under an orange sunset sky

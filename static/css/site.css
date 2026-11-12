@@ -25,3 +25,5 @@
 @media(max-width:900px){.photo-grid{column-count:2}}
 @media(max-width:640px){.photo-grid{column-count:1}}
 .photo-grid,.build-grid{display:flex;flex-wrap:wrap;gap:20px;column-count:auto}.photo-grid::after,.build-grid::after{content:"";flex-grow:100000}.photo-grid .photograph,.build-grid .photograph{margin:0;min-width:0}.photo-grid .photograph img,.build-grid .photograph img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:cover}
+.photography-page h2{margin:0 0 22px}.photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 20px}.photo-grid::after{display:none}.photo-grid .photograph img{aspect-ratio:1;height:auto;object-fit:cover}@media(max-width:640px){.photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 12px}}
+.photo-grid .photograph img{aspect-ratio:4/5}.build-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 20px;align-items:start}.build-grid::after{display:none}.build-grid .photograph img{aspect-ratio:auto;object-fit:contain}@media(max-width:640px){.build-grid{grid-template-columns:1fr}}
