@@ -24,3 +24,4 @@
 .photo-grid{display:block;column-count:3;column-gap:24px}.photo-grid .photograph{break-inside:avoid;margin:0 0 24px}.photo-grid .photograph img{aspect-ratio:auto;height:auto;object-fit:cover}.photo-grid .photograph figcaption{margin-top:8px}
 @media(max-width:900px){.photo-grid{column-count:2}}
 @media(max-width:640px){.photo-grid{column-count:1}}
+.photo-grid,.build-grid{display:flex;flex-wrap:wrap;gap:20px;column-count:auto}.photo-grid::after,.build-grid::after{content:"";flex-grow:100000}.photo-grid .photograph,.build-grid .photograph{margin:0;min-width:0}.photo-grid .photograph img,.build-grid .photograph img{display:block;width:100%;height:auto;aspect-ratio:auto;object-fit:cover}
