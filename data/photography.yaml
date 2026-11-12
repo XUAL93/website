@@ -1,8 +1,4 @@
 photos:
-  - file: photography/snowy-islets.jpg
-    title: Quiet water
-    alt: Snow-covered rocky islets above calm blue water at dusk
-    source: DSC00003.jpg
   - file: photography/hallstatt-winter.jpg
     title: Winter village
     alt: A church tower and snow-covered houses beside a mountain lake
@@ -11,26 +7,14 @@ photos:
     title: Alpine peaks
     alt: Snowy rocky peaks under a blue sky with a small cloud
     source: DSC03402.jpg
-  - file: photography/museum-skeleton.jpg
-    title: Antlers
-    alt: An antlered animal skeleton in a museum hall with arched windows
-    source: DSC03483.jpg
   - file: photography/orsay-clock.jpg
     title: Through the clock
     alt: Silhouettes of visitors in front of a large backlit clock window
     source: DSC03547.jpg
-  - file: photography/mosaic-interior.jpg
-    title: Golden interior
-    alt: A dim church interior with mosaics and a group of visitors
-    source: DSC03649.jpg
   - file: photography/mosaic-apse.jpg
     title: Looking up
     alt: Visitors looking at a mosaic apse with tall arched windows
     source: DSC03653.jpg
-  - file: photography/mosaic-dome.jpg
-    title: Dome
-    alt: A richly decorated dome seen from below with surrounding arches
-    source: DSC03661.jpg
   - file: photography/eiffel-dusk.jpg
     title: Dusk over the city
     alt: The Eiffel Tower lit at dusk above the city skyline
@@ -43,31 +27,11 @@ photos:
     title: Waterfront reflections
     alt: Colourful waterfront houses reflected in still water
     source: DSC09542.jpg
-  - file: photography/pink-dusk-mountain.jpg
-    title: Pink dusk
-    alt: A snowy mountain and village road under pink evening clouds
-    source: DSC09560.jpg
-  - file: photography/moonrise-town.jpg
-    title: Moonrise
-    alt: A pale moon above a coastal town and mountains
-    source: DSC09670.jpg
-  - file: photography/snow-walkers.jpg
-    title: Walking in snow
-    alt: Hikers in colourful jackets crossing a snowy slope above a fjord
-    source: DSC09883.jpg
   - file: photography/moon-window.jpg
     title: Window moon
     alt: Silhouetted people at a window with the moon above a snowy landscape
     source: DSC09892.jpg
-  - file: photography/red-houses.jpg
-    title: Red houses
-    alt: Red houses on a snowy shore beside a fjord
-    source: DSC09942.jpg
   - file: photography/red-hut.jpg
     title: Red hut
     alt: A small red hut on a snowy shore beneath misty mountains
     source: DSC09956.jpg
-  - file: photography/city-sunset.jpg
-    title: City at sunset
-    alt: Towers and apartment blocks under an orange sunset sky
-    source: DSC09965.jpg
