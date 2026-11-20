@@ -2,13 +2,16 @@
 title: 'Toward a comprehensive view of peripersonal space: From upper-limb foundations to lower-limb frontiers'
 authors:
   - admin
-  - J. De Bruyne
+  - Jonas De Bruyne
   - Elena Gherri
-  - T. Marichal
+  - Thibault Marichal
   - Durk Talsma
-publication: '*Psychonomic Bulletin & Review*'
+date: "2026-11-20"
+publishDate: "2026-11-20T00:00:00Z"
+publication: '*Psychonomic Bulletin & Review*, 33, Article 281'
 publication_types: ['article-journal']
-publication_status: In press
+publication_status: Published
 weight: 10
+doi: https://doi.org/10.3758/s13423-026-03041-z
 featured: false
 ---
