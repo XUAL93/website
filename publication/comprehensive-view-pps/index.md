@@ -12,5 +12,6 @@ publication: '*Psychonomic Bulletin & Review*, 33, Article 281'
 publication_types: ['article-journal']
 publication_status: Published
 weight: 10
+doi: https://doi.org/10.3758/s13423-026-03041-z
 featured: false
 ---
