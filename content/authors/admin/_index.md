@@ -122,8 +122,6 @@ conferences:
     type: Poster presentation
 
 manuscripts:
-  - title: 'Effector-specific organisation of peripersonal space for the foot and hand: A virtual reality experiment.'
-    status: In revision
   - title: 'Peripersonal space, interpersonal space, and reachability: Are they different, or is it just a matter of scale?'
     status: In preparation
   - title: 'Tool-use-related plasticity of peripersonal space around the hand in immersive virtual reality.'
