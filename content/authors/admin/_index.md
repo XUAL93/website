@@ -35,7 +35,7 @@ profiles:
     url: 'mailto:aolong.xu@ugent.be'
     label: Email
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=DIYaStkAAAAJ&hl=en
+    url: https://scholar.google.com/citations?user=eIwC4OAAAAAJ&hl=en
     label: Google Scholar
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/aolong-xu-646024356/
@@ -181,4 +181,4 @@ Aolong Xu (徐傲龙) is a PhD Fellow at Ghent University. His research examines
 
 His research career began at the University of Edinburgh, where he worked with Prof. Elena Gherri. He later received a scholarship to join Prof. Talsma's team at Ghent University. Before his PhD, he worked as a senior data analyst at Trip.com.
 
-You can also find him on [Google Scholar](https://scholar.google.com/citations?user=DIYaStkAAAAJ&hl=en), [LinkedIn](https://www.linkedin.com/in/aolong-xu-646024356/), and [Xiaohongshu](https://xhslink.cn/o/i7PD1T4HcW).
+You can also find him on [Google Scholar](https://scholar.google.com/citations?user=eIwC4OAAAAAJ&hl=en), [LinkedIn](https://www.linkedin.com/in/aolong-xu-646024356/), and [Xiaohongshu](https://xhslink.cn/o/i7PD1T4HcW).

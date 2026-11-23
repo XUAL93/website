@@ -74,7 +74,7 @@ sections:
         **Email**  
         [aolong.xu@ugent.be](mailto:aolong.xu@ugent.be)
 
-        **[Google Scholar](https://scholar.google.com/citations?user=DIYaStkAAAAJ&hl=en)**  
+        **[Google Scholar](https://scholar.google.com/citations?user=eIwC4OAAAAAJ&hl=en)**  
         Browse my publications and citations.
 
         **[LinkedIn](https://www.linkedin.com/in/aolong-xu-646024356/)**  
